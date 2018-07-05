@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include devicetrack *.css
+recursive-include devicetrack *.csv
+recursive-include devicetrack *.html
+recursive-include devicetrack *.ico
+recursive-include devicetrack *.js
+recursive-include devicetrack *.json
+recursive-include devicetrack *.md
+recursive-include devicetrack *.png
+recursive-include devicetrack *.py
+recursive-include devicetrack *.svg
+recursive-include devicetrack *.txt
+recursive-exclude devicetrack *.pyc
